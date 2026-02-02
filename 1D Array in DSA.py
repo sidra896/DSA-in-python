@@ -100,3 +100,4 @@ elif op=='7':
   delete_mid(arr)
   print("The array after the deletion",arr)
 
+
