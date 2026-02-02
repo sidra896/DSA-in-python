@@ -20,7 +20,7 @@ def delete_begin(arr):
         arr.pop(0)
 def delete_mid(arr):
     if arr:
-        arr.pop(len(arr)//n)
+        arr.pop(len(arr)//2)
 
 
 print("Enter the type of values you want to enter")
@@ -99,3 +99,4 @@ elif op=='6':
 elif op=='7':
   delete_mid(arr)
   print("The array after the deletion",arr)
+
