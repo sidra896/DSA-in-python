@@ -70,4 +70,5 @@ elif op=='2':
 elif op=='3':
     obj.insertMiddle(newValue)
 print("The linklist:")
+
 obj.display()
