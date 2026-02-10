@@ -19,7 +19,7 @@ class Queue:
             print(f"The {remove} is pop out")
         
 
-    def peep(self):
+    def peek(self):
         if self.isEmpty():
             print("Queue is empty")
         else:
@@ -54,7 +54,7 @@ while True:
     obj.display()
   
  elif op=='3':
-    obj.peep()
+    obj.peek()
     obj.display()
 
  elif op=='4':
@@ -64,3 +64,4 @@ while True:
      print("Invalid choice ,please enter a valid choice")   
 
    
+
