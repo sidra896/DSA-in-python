@@ -128,7 +128,7 @@ if op=='1':
  if obj.search(val):
    print(f"Value {val} is present in your tree.")
  else:
-   print(f"Value {val} is present in your tree.")
+   print(f"Value {val} is not present in your tree.")
  print("After Insertion InOrder Traversal:")
  obj.inOrder()
 if op=='2':
@@ -139,4 +139,5 @@ if op=='2':
    print(f"Value {val2} is not delete in your tree because it is not present in tree.")
 
  print("After Deletion InOrder Traversal:")
+
  obj.inOrder()    
