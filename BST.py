@@ -133,11 +133,13 @@ if op=='1':
  obj.inOrder()
 if op=='2':
  val2=int(input("\nEnter the value you want to delete:"))
- if obj.delete(val2):
-     print(f"Value {val2} is delete in your tree.")
+ if obj.search(val2):
+     obj=obj.delete(val2)
+     print(f"Value {val2} is deleted in your tree successfully.")
  else:
-   print(f"Value {val2} is not delete in your tree because it is not present in tree.")
+   print(f"Value {val2} is not present in tree.")
 
  print("After Deletion InOrder Traversal:")
 
  obj.inOrder()    
+
